@@ -6,8 +6,8 @@ import re
 import json
 
 # DeepSeek API
-DEEPSEEK_API_KEY = "sk-7179a0c490934f77a8d5da89875b3603"
-DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
+DEEPSEEK_API_KEY = "price_compare_app_secret_key"
+DEEPSEEK_API_URL = "price_compare_app_secret_key"
 
 def extract_amazon_reviews(product_url, num_reviews=10):
     #Extract reviews from an Amazon product page
@@ -241,4 +241,5 @@ def summarize_amazon_reviews(product_name=None, product_url=None):
 
 
 if __name__ == "__main__":
+
     main()
